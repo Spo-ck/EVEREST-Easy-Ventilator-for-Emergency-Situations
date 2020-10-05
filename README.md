@@ -1,4 +1,4 @@
-# EVEREST Easy Ventilator for Emergency Situations
+# EVEREST - Easy Ventilator for Emergency Situations
 
 Welcome to the EVEREST - Easy Ventilator for Emergency Use. This documentation wil be enhanced in the upcomming weeks into a tutorial on how to built a ventilator. 
 
@@ -6,3 +6,6 @@ On the IT Side, Everest consists out of a Microcontroller (ESP32) that controlls
 
 ![image](https://github.com/Spo-ck/EVEREST-Easy-Ventilator-for-Emergency-SItuations/blob/master/Raspberry%20Pi%20User%20Interface/EVREST%20GUI%20V15_2.png?raw=true)
 ***Raspberry Pi Touch Interface***
+
+![image](https://github.com/Spo-ck/EVEREST-Easy-Ventilator-for-Emergency-SItuations/blob/master/Schematics/Schematics.png?raw=true)
+***Electronic Schematic***
