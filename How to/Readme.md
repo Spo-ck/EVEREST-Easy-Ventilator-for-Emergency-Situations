@@ -51,6 +51,7 @@ To install Node Red, the following command has to the used in a command window: 
 Node Red itself is a command line application, and programming and visualization can be done using any browser. To start or stop Node-Red, the following commands have to be used in a command window:
 
 • Start Node-Red: node-red-pi
+
 • Stop Node-Red: press Ctrl + C
 
 Node-Red will then run in the command line window (Figure 3). It is important, that closing this window also results in quitting Node-Red, so that the window has to be always open when Node- Red should be running. Important is also, that there are two different command to start Node- Red: “node-red” and “node-red-pi”. “node-red” can be used for implementations on any hardware, but caused stability issues in the hardware demonstrator on the raspberry pi, because it was not possible to limit the memory usage adequately. For computers with limited resources,
