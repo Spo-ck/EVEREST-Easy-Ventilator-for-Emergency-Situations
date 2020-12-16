@@ -1,6 +1,6 @@
 # Main Controller Code
 
-The Everest Main Controller Code was developed using the Arduino IDE. Because it was available from previous Projects, a Wireless Stick Dev Board from Heltec was used, but also all ESP32 Dev Boards can be used for an EVEREST implementation. In order to use or develop the code further, it is sufficient to download the Microcontroller-COde file in this folder and open it in the [Arduino IDE](https://www.arduino.cc/en/main/software). In order programm the microcontroller, also the driver for you Dev Board need to be installed. For installation please have a look into [How To](https://github.com/Spo-ck/EVEREST-Easy-Ventilator-for-Emergency-SItuations/tree/master/How%20to).
+The Everest Main Controller Code was developed using the Arduino IDE. Because it was available from previous Projects, a Wireless Stick Dev Board from Heltec was used, but also all ESP32 Dev Boards can be used for an EVEREST implementation. In order to use or develop the code further, it is sufficient to download the Microcontroller-COde file in this folder and open it in the [Arduino IDE](https://www.arduino.cc/en/main/software). In order programm the microcontroller, also the driver for you Dev Board need to be installed.
 
 In the following, all elements of the microcontroller code will be explained:
 
@@ -21,7 +21,7 @@ Since drivers for Arduino Boards are included, these microcontrollers can be pro
         1. Heltec ESP32 Serial Dev-Boards by Heltec Automation(TM)
         2. esp32 by Espressif Systems
       
-In the next step, also additional libraries need to be installed. Since the Sensor will use the I2C bus for communication with the microcontroller, a library needs to be installed. In addition, if an external LoRa Transceiver shall be implemented with a microcontroller, also the LoRa Library needs to be included. For the Heltec Wireless Stick, also the Heltec library need to be installed, and for the ESP32, the ESP32 library needs to be installed. Since the LoRa library is already integrated in the Heltec library, there is no need to use both, the LoRa and the Heltec Library on the Wireless Stick.
+In the next step, also additional libraries need to be installed. Since the Sensor will use the I2C bus for communication with the microcontroller, a library needs to be installed. For the Heltec Wireless Stick, also the Heltec library need to be installed, and for the ESP32, the ESP32 library needs to be installed.
 After the download, the libraries need to be installed with the following steps in the Arduino IDE:
  
 • Library Installation:
@@ -37,9 +37,7 @@ After the download, the libraries need to be installed with the following steps 
     3. Go to: Sketch → Include Library → Add .ZIP Library
     4. Select the specific library and install it
     
-The control code for the Main controller can be opened in the Arduino IDE after Installation, and then be flashed on the microcontroller. After a reset using the reset button on the microcontroller, it has to be connected to the raspberry pi. Using the software Node-Red, commands, including start/stop operation can be send to the controller via USB connection.
-In a later implementation, also a physical hardware interface will be provided, so that operation is also possible without a computer.
-
+The control code for the Main controller can be opened in the Arduino IDE after Installation, and then be flashed on the microcontroller. After that, it has to be connected to the raspberry pi. Using the software Node-Red, commands, including start/stop operation can be send to the controller via USB connection.
 
 ## Code Explaination
 
