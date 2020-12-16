@@ -2,7 +2,7 @@
 
 ## Microcontroller
 
-All microcontrollers that shall be utilizes in this project have in common, that they can be programmed using the Arduino IDE software (Figure 1). In order install the software, the install packages for MacOS, Windows and Linux can be downloaded from the following website:
+All microcontrollers that shall be utilizes in this project have in common, that they can be programmed using the Arduino IDE software. In order install the software, the install packages for MacOS, Windows and Linux can be downloaded from the following website:
 
 • [Arduino IDE](https://www.arduino.cc/en/Main/Software)
 
