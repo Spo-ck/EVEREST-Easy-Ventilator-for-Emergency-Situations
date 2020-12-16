@@ -9,9 +9,11 @@ All microcontrollers that shall be utilizes in this project have in common, that
 Since drivers for Arduino Boards are included, these microcontrollers can be programmed directly after installation of the IDE. For the ESP32 based microcontrollers. For the ESP32 and the Heltec Wireless Stick, additional drivers have to be installed:
 
 • Driver Installation:
+
     1. Open: Arduino IDE
     2. Go to: Tools → Board → Boards Manager
     3. Download and Install drivers:
+    
         1. Heltec ESP32 Serial Dev-Boards by Heltec Automation(TM)
         2. esp32 by Espressif Systems
       
@@ -21,10 +23,12 @@ After the download, the libraries need to be installed with the following steps 
 • Library Installation:
 
     1. Download Libraries:
+    
         1. [Heltec Wireless Stick](https://github.com/HelTecAutomation/Heltec_ESP32)
         2. [ESP32](https://github.com/espressif/arduino-esp32)
         3. [Arduino JSON](https://arduinojson.org)
         4. [Pressure Sensor: BMP280](https://github.com/adafruit/Adafruit_BMP280_Library)
+        
     2. Open: Arduino IDE
     3. Go to: Sketch → Include Library → Add .ZIP Library
     4. Select the specific library and install it
@@ -61,11 +65,13 @@ After starting Node-Red, it will host 2 webpages to port 1880, that can be acces
 In order to use the flow, the following node extensions have to be installed. Installation can be done using the command line or directly in Node-Red
 
 • Installation in Command Line:
+
     1. Stop Node-Red:                     press Ctrl + C
     2. Install Serial-Port Node:          sudo npm i node-red-node-serialport
     3. Install Dashboard Node:            sudo npm i node-red-dashboard
     
 • Installation directly in Node-Red:
+
     1. Open command Line
     2. Start Node-Red:                    node-red-pi + enter
     3. Open Browser 
@@ -79,6 +85,7 @@ In order to use the flow, the following node extensions have to be installed. In
 After all nodes are installed, the Dashboard Flow need to be installed. Flows are saved in a JSON file containing all settings:
 
 • Importing a Flow into Node-Red:
+
     1. Open command Line
     2. Start Node-Red:                    node-red-pi + enter
     3. Open Browser
