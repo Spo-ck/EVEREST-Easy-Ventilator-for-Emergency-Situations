@@ -4,7 +4,7 @@
 
 All microcontrollers that shall be utilizes in this project have in common, that they can be programmed using the Arduino IDE software. In order install the software, the install packages for MacOS, Windows and Linux can be downloaded from the following website:
 
-• [Arduino IDE](https://www.arduino.cc/en/Main/Software)
+• ![Arduino IDE](https://www.arduino.cc/en/Main/Software)
 
 Since drivers for Arduino Boards are included, these microcontrollers can be programmed directly after installation of the IDE. For the ESP32 based microcontrollers. For the ESP32 and the Heltec Wireless Stick, additional drivers have to be installed:
 
@@ -24,10 +24,10 @@ After the download, the libraries need to be installed with the following steps 
 
     1. Download Libraries:
     
-        1. [Heltec Wireless Stick](https://github.com/HelTecAutomation/Heltec_ESP32)
-        2. [ESP32](https://github.com/espressif/arduino-esp32)
-        3. [Arduino JSON](https://arduinojson.org)
-        4. [Pressure Sensor: BMP280](https://github.com/adafruit/Adafruit_BMP280_Library)
+        1. ![Heltec Wireless Stick](https://github.com/HelTecAutomation/Heltec_ESP32)
+        2. ![ESP32](https://github.com/espressif/arduino-esp32)
+        3. ![Arduino JSON](https://arduinojson.org)
+        4. ![Pressure Sensor: BMP280](https://github.com/adafruit/Adafruit_BMP280_Library)
         
     2. Open: Arduino IDE
     3. Go to: Sketch → Include Library → Add .ZIP Library
@@ -60,8 +60,8 @@ node-red offers the “node-red-pi” command, that offers a memory optimised ve
 
 After starting Node-Red, it will host 2 webpages to port 1880, that can be accessed using a standard browser using the following URLs:
 
-• User-Interface (Error! Reference source not found.): https://localhost:1880
-• Dashboard: https://localhost:1880/ui
+• User-Interface (Error! Reference source not found.):  https://localhost:1880
+• Dashboard:                                            https://localhost:1880/ui
 
 In order to use the flow, the following node extensions have to be installed. Installation can be done using the command line or directly in Node-Red
 
